@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --clr-nuetral:#fff;
+    --clr-light:#F3EED9;
+    --clr-blue:rgb(23, 154, 214);
+    --clr--dark:#92533e;
+    --ff-primary:"Roboto" , sans-serif;
+    --ff-secondary: "Playfair Display" , sans-serif;
+}
+body,h1,h2,h3,p{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+h1,h2,h3{
+    line-height: 1;
+    font-family: var(--ff-secondary);
+    font-weight: 900;
+}
+.bg-light{
+    background-color: var(--clr-light);
+}
+.bg-blue{
+    color: var(--clr-nuetral);
+    background-color: var(--clr-blue);
+}
+.bg-dark{
+    color: var(--clr-nuetral);
+    background-color: var(--clr--dark);
+}
+section{
+    padding: 3rem 0;
+}
+.container{
+    margin: 0 auto;
+    width: min(90%, 70.5rem);
+}
+section img
+{
+    width: 50vw;
+}
